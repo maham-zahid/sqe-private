@@ -1,0 +1,29 @@
+<html>
+<head>
+
+<script>
+if (undefined == null){
+	console.log("a");
+}
+if (undefined === null){
+	console.log("b");
+}
+if (1=="1"){
+	console.log("c");
+}
+if (1==="1"){
+	console.log("d");
+}
+if (Boolean(NaN)=== false){
+	console.log("e");
+}
+if (Boolean(NaN)==true){
+	console.log("f");
+}
+
+</script>
+
+</head>
+<body>
+</body>
+</html>
